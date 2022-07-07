@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VelocityApp
+Bundle-SymbolicName: VelocityApp
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ps.velocityapp.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: VelocityApp
+Import-Package: org.osgi.framework;version="1.3.0",
+ ps.velocityservice
+Bundle-ActivationPolicy: lazy
+Export-Package: ps.velocityapp
